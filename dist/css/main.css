@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body,
+.adviceContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+body {
+  background-color: #1f2632;
+  display: flex;
+  height: 100vh;
+  width: 100vw; }
+  body .adviceContainer {
+    background-color: #323a49;
+    width: 500px;
+    height: 200px; }
