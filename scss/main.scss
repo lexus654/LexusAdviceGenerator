@@ -21,5 +21,13 @@ body {
     background-color: $Dark-Grayish-Blue;
     width: 500px;
     height: 200px;
+    .adviceTitle {
+      color: $Neon-Green;
+    }
+    .adviceMessage {
+      color: $Light-Cyan;
+      font-family: "Manrope", sans-serif;
+      font-weight: 800;
+    }
   }
 }

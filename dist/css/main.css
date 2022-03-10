@@ -18,3 +18,9 @@ body {
     background-color: #323a49;
     width: 500px;
     height: 200px; }
+    body .adviceContainer .adviceTitle {
+      color: #52ffa8; }
+    body .adviceContainer .adviceMessage {
+      color: #cee3e9;
+      font-family: "Manrope", sans-serif;
+      font-weight: 800; }
