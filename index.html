@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
       rel="stylesheet"
     />
     <title>Frontend Mentor | Advice generator app</title>
@@ -24,22 +24,26 @@
   <body>
     <div class="adviceContainer">
       <!-- Advice #Advice ID goes here -->
-      <div class="adviceTitle">Advice Id #143</div>
+      <div class="adviceTitle">Welcome</div>
       <!-- Advice text goes here -->
-      <div class="adviceMessage">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, autem!
-        Consequatur quis deleniti recusandae aspernatur natus magnam quae saepe
-        cupiditate.
-      </div>
-      <img src="/images/pattern-divider-desktop.svg" alt="" />
+      <div class="adviceTransition hide"></div>
+      <div class="adviceMessage">Click the dice to generate an Advice</div>
+      <img
+        class="adviceDivider"
+        src="/images/pattern-divider-desktop.svg"
+        alt=""
+      />
+    </div>
+    <div class="adviceButtonContainer">
+      <img class="adviceButton" src="/images/icon-dice.svg" alt="" />
     </div>
 
-    <div class="attribution">
+    <!-- <div class="">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a href="#">Ronald Laz</a>.
+    </div> -->
   </body>
   <script src="script.js"></script>
 </html>
