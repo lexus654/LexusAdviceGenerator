@@ -20,8 +20,8 @@ function adviceTransition() {
   adviceTitle.textContent = "Looking for Suitable Advice";
   adviceMessage.classList.add("hide");
   transition.classList.remove("hide");
-  adviceGenerate();
   setTimeout(remove, 1400);
+  adviceGenerate();
 }
 
 diceButton.addEventListener("click", () => {
