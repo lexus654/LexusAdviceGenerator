@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body,
+.adviceContainer,
+.adviceButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.adviceMessage,
+.adviceTitle {
+  font-family: "Manrope", sans-serif; }
+
+body {
+  background-color: #1f2632;
+  display: flex;
+  height: 100vh;
+  width: 100vw; }
+  body .adviceContainer {
+    padding: 10px;
+    background-color: #323a49;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px; }
+    body .adviceContainer .adviceTitle {
+      margin-top: -60px;
+      font-size: 10px;
+      color: #52ffa8;
+      letter-spacing: 2px;
+      font-weight: 600;
+      animation: display 1.5s linear; }
+    body .adviceContainer .adviceMessage {
+      margin-top: 20px;
+      color: #cee3e9;
+      font-weight: 800;
+      text-align: center;
+      animation: display 1.5s linear; }
+    body .adviceContainer .adviceDivider {
+      margin-top: 20px;
+      width: 80%; }
+  body .adviceButtonContainer {
+    margin-top: -20px;
+    background-color: #52ffa8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer; }
+  body .adviceButton {
+    width: 1.2rem; }
+  body .attribution {
+    margin-top: 100px; }
+  body .adviceTransition {
+    margin-top: 20px;
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #52ffa8;
+    width: 60px;
+    height: 60px;
+    animation: spin 1.5s linear; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0%; }
+  25% {
+    opacity: 100%; }
+  75% {
+    opacity: 100%; }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0%; } }
+
+@keyframes display {
+  0% {
+    opacity: 0%; }
+  25% {
+    opacity: 100%; }
+  100% {
+    opacity: 100%; } }
+
+.hide {
+  display: none; }
+
+@media only screen and (max-width: 600px) {
+  body,
+  .adviceContainer,
+  .adviceButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .adviceMessage,
+  .adviceTitle {
+    font-family: "Manrope", sans-serif; }
+  body {
+    background-color: #1f2632;
+    display: flex;
+    height: 100vh;
+    width: 100vw; }
+    body .adviceContainer {
+      padding: 10px;
+      background-color: #323a49;
+      width: 300px;
+      height: 200px;
+      border-radius: 25px; }
+      body .adviceContainer .adviceTitle {
+        margin-top: -60px;
+        font-size: 10px;
+        color: #52ffa8;
+        letter-spacing: 2px;
+        font-weight: 600;
+        animation: display 1.5s linear; }
+      body .adviceContainer .adviceMessage {
+        margin-top: 20px;
+        color: #cee3e9;
+        font-size: 0.9rem;
+        font-weight: 800;
+        text-align: center;
+        animation: display 1.5s linear; }
+      body .adviceContainer .adviceDivider {
+        margin-top: 20px;
+        width: 80%; }
+    body .adviceButtonContainer {
+      margin-top: -20px;
+      background-color: #52ffa8;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer; }
+    body .adviceButton {
+      width: 1.2rem; }
+    body .attribution {
+      margin-top: 100px; }
+    body .adviceTransition {
+      margin-top: 20px;
+      border: 10px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 10px solid #52ffa8;
+      width: 60px;
+      height: 60px;
+      animation: spin 1.5s linear; }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      opacity: 0%; }
+    25% {
+      opacity: 100%; }
+    75% {
+      opacity: 100%; }
+    100% {
+      transform: rotate(360deg);
+      opacity: 0%; } }
+  @keyframes display {
+    0% {
+      opacity: 0%; }
+    25% {
+      opacity: 100%; }
+    100% {
+      opacity: 100%; } }
+  .hide {
+    display: none; } }
